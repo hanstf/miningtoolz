@@ -1,0 +1,32 @@
+{
+  "name": "miningtoolz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "devstart": "nodemon --exec babel-node -- index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanstf/miningtoolz.git"
+  },
+  "author": "Hans Tjipto <hansbrians@gmail.com> (styletribute.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hanstf/miningtoolz/issues"
+  },
+  "homepage": "https://github.com/hanstf/miningtoolz#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^22.4.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "express": "^4.16.2",
+    "jest": "^22.4.2",
+    "nodemon": "^1.15.1"
+  },
+  "dependencies": {
+    "dotenv": "^5.0.0"
+  }
+}
